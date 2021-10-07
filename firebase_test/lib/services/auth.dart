@@ -57,6 +57,11 @@ class AuthService {
     }
   }
 
+  //test delete
+  // Future deleteUserData(uid) async {
+  //   return await _userFromFirebaseUser(uid).;
+  // }
+
   //sign out
   Future signOut() async {
     try {
